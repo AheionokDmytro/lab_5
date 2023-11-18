@@ -14,7 +14,7 @@ namespace UnitTest
 		{
 			double x = 4;
 			int n = 3;
-			double expected = 10;
+			double expected = 10; //Changed to get unpassed test
 
 			double actual = calculate(x, n);
 
@@ -83,11 +83,11 @@ namespace UnitTest
 
 			try {
 				checkValidParams(a, b, h, n);
-				Assert::IsTrue(true);
+				Assert::IsTrue(true); // Changed to get unpassed test
 			}
 			catch (...)
 			{
-				Assert::Fail();
+				Assert::Fail(); // Changed to get unpassed test
 			}
 		}
 	public:
